@@ -279,9 +279,12 @@ nhs-dna-predictive-model
 ├── powerbi
 
 │   └── nhs_dna_dashboard.pbix
+
 │
 ├── sql
-│   └── data_cleaning.sql
+│ 
+└── data_cleaning.sql
+
 │
 └── README.md
 
