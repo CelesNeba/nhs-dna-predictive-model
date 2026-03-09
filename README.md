@@ -62,7 +62,9 @@ The dataset contains medical appointment records, including:
 ### Target variable:
 
 #### No-show
+
 0 = Attended
+
 1 = Did Not Attend
 
 
