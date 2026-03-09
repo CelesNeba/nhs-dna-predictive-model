@@ -304,9 +304,9 @@ By combining predictive insights with proactive patient engagement strategies, t
 
 
 
-# Author
+# 👤 Author
 
-![Author Image](https://via.placeholder.com/150)  
+ 
 **Celestine Neba**  
 ETL, Data Engineering & Analytics  
 BSc in Computer Science
