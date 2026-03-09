@@ -295,3 +295,29 @@ nhs-dna-predictive-model
 - Test XGBoost / Gradient Boosting
 - Add real-time prediction pipeline
 - Deploy dashboard for live hospital monitoring
+
+### My recommendation to decision makers
+
+Based on the analysis, healthcare administrators should consider implementing targeted interventions for patients identified as having a higher risk of missing appointments. For example, prioritising SMS reminders or follow-up calls for high-risk patients, particularly younger individuals and those from neighbourhoods with historically higher DNA rates, could help improve attendance. Additionally, monitoring weekly attendance patterns and adjusting scheduling practices during periods with higher no-show rates may help optimise clinic capacity. 
+
+By combining predictive insights with proactive patient engagement strategies, the NHS can reduce missed appointments, improve resource utilisation, and enhance access to care for patients waiting for appointments.
+
+
+
+# Author
+
+![Author Image](https://via.placeholder.com/150)  
+**Celestine Neba**  
+ETL, Data Engineering & Analytics  
+BSc in Computer Science
+
+## About the Author
+
+I am a data engineer and analyst with experience in building fully integrated data solutions, including:
+
+- Data cleaning & transformation
+- Database architecture & management
+- Machine learning forecasting
+- Business intelligence dashboard development
+
+This project demonstrates a complete production-style data workflow from raw data ingestion to executive-level analytics visualisation.
