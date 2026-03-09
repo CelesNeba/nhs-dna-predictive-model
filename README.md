@@ -197,3 +197,96 @@ An interactive Power BI dashboard was built to allow stakeholders to explore ins
 #### 4️⃣ Predictive insights
 - High-risk appointment flag
 - Weekly DNA trend
+
+
+# NHS DNA predictive model dashboard screenshot
+
+![NHS DNA Dashboard Screenshot](https://github.com/CelesNeba/nhs-dna-predictive-model/blob/main/nhs%20dna%20dashboard%20screenshot.PNG)
+
+*Note: The above image is a screenshot of the NHS DNA predictive dashboard, providing insights into appointment attendance and risk analysis.*
+
+
+## To explore the full project workflow:
+
+To see the **complete step-by-step workflow, code logic, and analysis behind this project**, please navigate to the **project folders located at the top left section of this GitHub repository**.
+
+These folders contain the full technical implementation:
+
+- **`sql/`** – Data cleaning and preparation performed in MySQL  
+- **`notebooks/`** – Python notebooks for data exploration, feature engineering, and machine learning modelling  
+- **`data/`** – Cleaned and modelling datasets used in the analysis  
+- **`powerbi/`** – Power BI dashboard file used for visual analytics  
+
+Together, these components document the **end-to-end analytics pipeline**, from raw healthcare appointment data to predictive modelling and operational insights.
+
+
+
+### Key insights
+
+1️⃣ **Age impacts attendance**  
+Younger patients had higher no-show rates.
+
+2️⃣ **Geographic variation**  
+Some neighbourhoods showed consistently higher DNA rates.
+
+3️⃣ **Reminder effectiveness**  
+Patients receiving SMS reminders attended more frequently.
+
+4️⃣ **Weekly patterns**  
+DNAs were higher on certain weekdays, suggesting scheduling effects.
+
+
+### 🚀 Potential impact for healthcare providers
+
+Using these insights, hospitals could:
+
+- Prioritise reminders for high-risk patients
+
+- Overbook high DNA time slots
+
+- Target community outreach in high-risk areas
+
+- Improve appointment scheduling policies
+
+  Even a small reduction in DNAs could save significant healthcare resources.
+
+
+
+  ### 🛠 Tools used
+
+| Tool            | Purpose                                   |
+|-----------------|-------------------------------------------|
+| MySQL         | Data cleaning and preparation             |
+| Python        | EDA and machine learning                  |
+| Pandas        | Data manipulation                         |
+| Scikit-learn  | Predictive modelling                       |
+| Power BI      | Dashboard visualisation                     |
+| GitHub        | Project version control                     |
+
+
+# Project structure
+
+nhs-dna-predictive-model
+│
+├── data
+
+├── images
+
+├── notebooks
+│   └── 01_load_and_clean_data.ipynb
+│
+├── powerbi
+│   └── nhs_dna_dashboard.pbix
+│
+├── sql
+│   └── data_cleaning.sql
+│
+└── README.md
+
+
+### 📌 Future improvements
+
+- Address class imbalance with SMOTE
+- Test XGBoost / Gradient Boosting
+- Add real-time prediction pipeline
+- Deploy dashboard for live hospital monitoring
